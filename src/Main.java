@@ -1,5 +1,19 @@
+/**
+ * A simple program that continually ask user for
+ * a number value between 1.0 - 10.0 and say whether that
+ * value is prime number or not by disregarding the decimal
+ * and look only on the first to forth place of the given number
+ *
+ * By Bhimapaka Thapanangkun
+ */
 public class Main {
 
+    /**
+     * Main method first asks the user to
+     * give the input and check whether it is
+     * a bad input or not. Then it will tell if the number
+     * is prime or not
+     */
     public static void main(String[] args) {
         boolean bOk = true;
         String stringInput = "";
